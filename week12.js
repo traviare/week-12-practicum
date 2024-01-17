@@ -163,9 +163,11 @@ const resultEleven = document.querySelector('#resultEleven');
 
 const makeEleven = () => {
 	//Ваш код
+	resultEleven.textContent = 5 % 2;
 };
 
 //Добавьте слушатель события
+buttonEleven.addEventListener('click', makeEleven);
 
 //Задание 12
 //Объедините строки str1 и str2. Добавьте слушатель события на кнопку "Задание 12" и выведите результат на экран.
